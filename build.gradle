@@ -12,6 +12,10 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    /* Framework for event-driven/reactive systems (Vertx) */
+    implementation 'io.vertx:vertx-core:4.3.3'
+    implementation 'io.vertx:vertx-web:4.3.3'
+    implementation 'io.vertx:vertx-web-client:4.3.3'
 }
 
 test {
